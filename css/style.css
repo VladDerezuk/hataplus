@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-line ul {
+  list-style: none;
+  column-gap: 15px;
+}
+
+.top-line ul li>a {
+  color: #b1b1d2;
+  text-decoration: none;
+}
+
+.line-text li:hover>a {
+  color: #fd8300;
+}
+
+.top-line {
+  background-color: #1f1f56;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.tel-top ul {
+  list-style: none;
+}
+
+.tel-top a {
+  margin: 30px;
+  color: #25252c;
+  font-weight: bold;
+}
+
+.tel-top li {
+  margin-bottom: 10px;
+}
+
+.contacts-top ul {
+  list-style: none;
+}
+
+.contacts-top li {
+  margin-bottom: 6px;
+}
+
+.contacts-top a {
+  color: #25252c;
+  padding: 10px;
+}
+
+.button-top {
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 2px solid #fd8300;
+  padding: 20px;
+}
+
+.button-top a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #25252c;
+  font-weight: bold;
+}
+
+.background-img {
+  background: url(../Rectangle\ 9.png) no-repeat center/cover;
+  padding: 11px;
+}
+
+.img-text h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto Slab";
+  text-align: center;
+}
+
+.img-text p {
+  list-style: none;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 24px;
+  color: #24242b;
+  font-family: "Roboto Slab";
+}
+
+.pro-hataplus p {
+  line-height: 24px;
+  color: #666;
+}
+
+.pro-nas a {
+  text-decoration: underline;
+  color: #fd8300;
+  font-weight: bold;
+}
+
+p.cina {
+  font-size: 40px;
+  line-height: 24px;
+  color: #fd8300;
+  font-weight: bold;
+}
+
+.cina span {
+  font-size: 24px;
+  line-height: 24px;
+  color: #fd8300;
+  font-weight: bold;
+}
+.proektu{
+  font-size: 24px;
+  color: #24242b;
+  font-weight: 700;
+  font-family: "Roboto Slab";
+}
+.dim1 a{
+  font-size: 14px;
+  line-height: 24px;
+  color: #1f1f56;
+  font-weight: bold;
+}
+.dim1 p{
+  font-size: 13px;
+  color: #9999a6;
+  list-style: none;
+}
+.dim2 a{
+  font-size: 14px;
+  line-height: 24px;
+  color: #1f1f56;
+  font-weight: bold;
+}
+.dim2 p{
+  font-size: 13px;
+  color: #9999a6;
+  list-style: none;
+}
+.dim3 a{
+  font-size: 14px;
+  line-height: 24px;
+  color: #1f1f56;
+  font-weight: bold;
+}
+.dim3 p{
+  font-size: 13px;
+  color: #9999a6;
+  list-style: none;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
