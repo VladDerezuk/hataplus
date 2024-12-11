@@ -39,6 +39,13 @@ body {
   color: #25252c;
   font-weight: bold;
   padding: 10px;
+  text-decoration: none;
+}
+.tel-top p:hover > a{
+  color: #fd8300;
+}
+.main{
+  column-gap: 28px;
 }
 .main-block{
   padding: 37px 0 47px;
@@ -46,6 +53,10 @@ body {
 .contacts-top a {
   color: #25252c;
   padding: 10px;
+  text-decoration: none;
+}
+.contacts-top p:hover > a{
+  color: #fd8300;
 }
 .button-top {
   border-radius: 25px;
@@ -58,6 +69,10 @@ body {
   line-height: 24px;
   color: #25252c;
   font-weight: bold;
+  text-decoration: none;
+}
+.button-top p:hover > a{
+  color: #fd8300;
 }
 .background-img {
   background: url(../Rectangle\ 9.png) no-repeat center/cover;
@@ -97,6 +112,7 @@ h1 {
   text-align: left;
 }
 .pro-hataplus p {
+  font-size: 14px;
   line-height: 24px;
   color: #666;
   padding: 10px 0;
@@ -105,9 +121,11 @@ h1 {
   text-decoration: underline;
   color: #fd8300;
   font-weight: bold;
-  padding: ;
 }
 hr{
+  width: 100%;
+  margin: 33px 0;
+  border: none;
 }
 .cina span {
   font-size: 24px;
@@ -115,45 +133,57 @@ hr{
   color: #fd8300;
   font-weight: bold;
 }
-.proektu{
+p.proektu{
   font-size: 24px;
   color: #24242b;
   font-weight: 700;
   font-family: "Roboto Slab";
-  padding: 20px 0;
+  margin: 22px 0;
 }
 .dim1 a{
   font-size: 14px;
   line-height: 24px;
   color: #1f1f56;
   font-weight: bold;
+  text-decoration: none;
 }
 .dim1 p{
   font-size: 13px;
   color: #9999a6;
   list-style: none;
 }
+.dim1:hover span > a{
+  text-decoration: underline;
+}
 .dim2 a{
   font-size: 14px;
   line-height: 24px;
   color: #1f1f56;
   font-weight: bold;
+  text-decoration: none;
 }
 .dim2 p{
   font-size: 13px;
   color: #9999a6;
   list-style: none;
 }
+.dim2:hover span > a{
+  text-decoration: underline;
+}
 .dim3 a{
   font-size: 14px;
   line-height: 24px;
   color: #1f1f56;
   font-weight: bold;
+  text-decoration: none;
 }
 .dim3 p{
   font-size: 13px;
   color: #9999a6;
   list-style: none;
+}
+.dim3:hover span > a{
+  text-decoration: underline;
 }
 aside{
   min-width: 220px;
@@ -200,11 +230,56 @@ aside p{
   background-color: #cecedd;
   color: #666;
 }
+.underline{
+  background-color: #ededf5;
+  padding: 20px;
+}
+.underline-text a{
+  font-size: 14px;
+  line-height: 26px;
+  color: #666;
+  text-decoration: none;
+}
+.underline-text{
+  list-style: none;
+}
+.phone-under a{
+  font-size: 18px;
+  line-height: 24px;
+  color: #25252c;
+  font-weight: bold;
+  text-decoration: none;
+}
+.phone-under p:hover > a{
+  color: #fd8300;
+}
+.contacts-under a{
+  font-size: 16px;
+  line-height: 24px;
+  color: #25252c;
+  text-decoration: none;
+}
+.contacts-under p:hover > a{
+  color: #fd8300;
+}
+.underline-text li:hover > a{
+  color: #fd8300;
+}
+.footer{
+  background-color: #dcdce6;
+  padding: 10px;
+}
+.footer-text{
+  font-size: 13px;
+  line-height: 18px;
+  color: #9999a6;
+  font-family: "Arial";
+  text-align: center;
+}
 .flex-between {
   display: flex;
   justify-content: space-between;
 }
-
 .items-center {
   align-items: center;
 }
