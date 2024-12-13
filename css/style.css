@@ -3,31 +3,26 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 .top-line ul {
   list-style: none;
   column-gap: 15px;
   padding:  15px;
 }
-
 .top-line ul li>a {
   color: #b1b1d2;
   text-decoration: none;
+  transition: all .5s;
 }
-
 .line-text li:hover>a {
   color: #fd8300;
 }
-
 .top-line {
   background-color: #1f1f56;
 }
-
 .wrapper {
   margin: 0 auto;
   max-width: 960px;
@@ -40,6 +35,10 @@ body {
   font-weight: bold;
   padding: 10px;
   text-decoration: none;
+  transition: all .5s;
+}
+.tel-top p{
+  
 }
 .tel-top p:hover > a{
   color: #fd8300;
@@ -54,14 +53,12 @@ body {
   color: #25252c;
   padding: 10px;
   text-decoration: none;
+  transition: all .5s;
 }
 .contacts-top p:hover > a{
   color: #fd8300;
 }
 .button-top {
-  border-radius: 25px;
-  background-color: #ffffff;
-  border: 2px solid #fd8300;
   padding: 14px;
 }
 .button-top a {
@@ -70,6 +67,12 @@ body {
   color: #25252c;
   font-weight: bold;
   text-decoration: none;
+  transition: all .5s;
+  display: block;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 2px solid #fd8300;
+  padding: 14px;
 }
 .button-top p:hover > a{
   color: #fd8300;
@@ -104,7 +107,6 @@ p.cina {
   padding: 5px;
 }
 h1 {
-  padding: 15px 0;
   font-size: 30px;
   line-height: 24px;
   color: #24242b;
@@ -124,8 +126,9 @@ h1 {
 }
 hr{
   width: 100%;
-  margin: 33px 0;
+  margin: 30px 0;
   border: none;
+  border-top: 1px solid #e4e4ec;
 }
 .cina span {
   font-size: 24px;
@@ -195,8 +198,8 @@ aside p{
   color: #fff;
   font-weight: 700;
   font-family: "Roboto Slab";
-  border-radius: 3px;
   background-color: #1f1f56;
+  border-radius: 3px 0;
 }
 .menu a{
   padding: 10.5px 16px;
@@ -239,6 +242,7 @@ aside p{
   line-height: 26px;
   color: #666;
   text-decoration: none;
+  transition: all .5s;
 }
 .underline-text{
   list-style: none;
@@ -249,6 +253,7 @@ aside p{
   color: #25252c;
   font-weight: bold;
   text-decoration: none;
+  transition: all .5s;  
 }
 .phone-under p:hover > a{
   color: #fd8300;
@@ -258,6 +263,7 @@ aside p{
   line-height: 24px;
   color: #25252c;
   text-decoration: none;
+  transition: all .5s;
 }
 .contacts-under p:hover > a{
   color: #fd8300;
@@ -267,7 +273,7 @@ aside p{
 }
 .footer{
   background-color: #dcdce6;
-  padding: 10px;
+  padding: 10px 0;
 }
 .footer-text{
   font-size: 13px;
