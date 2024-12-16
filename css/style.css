@@ -155,7 +155,7 @@ p.proektu{
   color: #9999a6;
   list-style: none;
 }
-.dim1:hover span > a{
+.dim1:hover h2 > a{
   text-decoration: underline;
 }
 .dim2 a{
@@ -170,7 +170,7 @@ p.proektu{
   color: #9999a6;
   list-style: none;
 }
-.dim2:hover span > a{
+.dim2:hover h2 > a{
   text-decoration: underline;
 }
 .dim3 a{
@@ -185,7 +185,7 @@ p.proektu{
   color: #9999a6;
   list-style: none;
 }
-.dim3:hover span > a{
+.dim3:hover h2 > a{
   text-decoration: underline;
 }
 aside{
