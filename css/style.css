@@ -112,12 +112,13 @@ h1 {
   color: #24242b;
   font-family: "Roboto Slab";
   text-align: left;
+  margin-bottom: 20px
 }
 .pro-hataplus p {
   font-size: 14px;
   line-height: 24px;
   color: #666;
-  padding: 10px 0;
+  margin-bottom: 10px;
 }
 .pro-nas a {
   text-decoration: underline;
@@ -141,7 +142,7 @@ p.proektu{
   color: #24242b;
   font-weight: 700;
   font-family: "Roboto Slab";
-  margin: 22px 0;
+  margin-bottom: 20px
 }
 .dim1 a{
   font-size: 14px;
@@ -199,7 +200,7 @@ aside p{
   font-weight: 700;
   font-family: "Roboto Slab";
   background-color: #1f1f56;
-  border-radius: 3px 0;
+  border-radius: 3px 3px 0 0;
 }
 .menu a{
   padding: 10.5px 16px;
