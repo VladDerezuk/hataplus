@@ -37,9 +37,6 @@ body {
   text-decoration: none;
   transition: all .5s;
 }
-.tel-top p{
-  
-}
 .tel-top p:hover > a{
   color: #fd8300;
 }
@@ -225,6 +222,28 @@ aside p{
 }
 .menu{
   list-style: none;
+}
+.menu > li{
+  border-top: 1px solid #cdcddd;
+}
+.menu > li > a{
+  position: relative;
+}
+.menu > li > a:before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 09px;
+  width: 7px;
+  height: 7px;
+  border-top: 2px solid #8e8e91;
+  border-left: 2px solid #8e8e91;
+  transform: translateY(-50%) rotate(135deg);
+  transition: all 1s ease;
+}
+.menu > li:hover > a::before {
+  border-color: #fff;
+  transform: translateY(-50%) rotate(225deg);
 }
 .submenu a{
   padding-left: 30px;
