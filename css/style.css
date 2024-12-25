@@ -44,6 +44,17 @@ body {
 .top-line {
   background-color: #1f1f56;
 }
+.insta svg,
+.twiter svg,
+.faceb svg{
+  fill: #fff;
+  transition: all 1s ease;
+}
+.insta:hover > svg,
+.twiter:hover > svg,
+.faceb:hover > svg{
+  fill: #fd8300;
+}
 .wrapper {
   margin: 0 auto;
   max-width: 960px;
@@ -61,12 +72,30 @@ body {
 .header-contacts{
   padding: 26px 0;
 }
+.skype,
+.email,
+.phone{
+  position: relative;
+}
 .tel-top a {
   color: #25252c;
   font-weight: bold;
   padding: 10px;
   text-decoration: none;
   transition: all .5s;
+}
+.skype svg,
+.email svg,
+.phone svg{
+  fill: #fd8300;
+  position: absolute;
+  left: -20px;
+  transition: all 1s ease
+}
+.skype:hover svg,
+.email:hover svg,
+.phone:hover svg{
+  fill: #1f1f56;
 }
 .tel-top p:hover > a{
   color: #fd8300;
