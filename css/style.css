@@ -152,7 +152,7 @@ body {
   background-color: #fd8300;
 }
 .background-img {
-  background: url(/img/Bgc.png) no-repeat center/cover;
+  background: url(../img/Bgc.png) no-repeat center/cover;
   padding: 50px;
 }
 .img-text h2 {
