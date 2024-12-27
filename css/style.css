@@ -65,7 +65,7 @@ body {
   z-index: 1;
 }
 .header{
-  padding-top: 53px;
+  padding-top: 60px;
 }
 .email::before{
   position: relative;
@@ -76,11 +76,12 @@ body {
   height: 51px;
   background-color: #e4e4ec;
   position: absolute;
-  top: 0;
+  top: 50%;
   left: -45px;
+  transform: translateY(-20%);
 }
 .header-contacts{
-  padding: 26px 0;
+  padding: 17px 0;
 }
 .skype,
 .email,
@@ -100,7 +101,9 @@ body {
   fill: #fd8300;
   position: absolute;
   left: -20px;
-  transition: all 1s ease
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 1s ease;
 }
 .skype:hover svg,
 .email:hover svg,
@@ -128,7 +131,7 @@ body {
 .contacts-top p{
   margin-bottom: 10px;
 }
-.contacts-top p:hover > a{
+.contacts-top a:hover{
   color: #fd8300;
 }
 .button-top {
@@ -145,7 +148,7 @@ body {
   border-radius: 25px;
   background-color: #ffffff;
   border: 2px solid #fd8300;
-  padding: 14px;
+  padding: 11px;
 }
 .button-top p:hover > a{
   color: #fff;
@@ -280,7 +283,10 @@ aside p{
   font-weight: 700;
   font-family: "Roboto Slab";
   background-color: #1f1f56;
-  border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0 ;
+}
+.menu  ul li{ 
+  border-radius: 30px;
 }
 nav{
   position: sticky;
@@ -312,6 +318,7 @@ nav{
 }
 .menu > li{
   border-top: 1px solid #cdcddd;
+  border-bottom: 1px solid #cdcddd;
 }
 .menu > li > a{
   position: relative;
