@@ -198,6 +198,12 @@ h1 {
   text-decoration: underline;
   color: #fd8300;
   font-weight: bold;
+  transition: all 1s ease ;
+  
+}
+.pro-nas p:hover a{
+  color: #1f1f56;
+  transform: scale(1,1);
 }
 hr{
   width: 100%;
