@@ -17,8 +17,6 @@
   font-style: normal;
   font-display: swap;
 }
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -68,6 +66,18 @@ body {
 }
 .header{
   padding-top: 53px;
+}
+.email::before{
+  position: relative;
+}
+.email::before{
+  content: "";
+  width: 1px;
+  height: 51px;
+  background-color: #e4e4ec;
+  position: absolute;
+  top: 0;
+  left: -45px;
 }
 .header-contacts{
   padding: 26px 0;
@@ -138,11 +148,12 @@ body {
   padding: 14px;
 }
 .button-top p:hover > a{
-  color: #fd8300;
+  color: #fff;
+  background-color: #fd8300;
 }
 .background-img {
   background: url(../Rectangle\ 9.png) no-repeat center/cover;
-  padding: 45px;
+  padding: 50px;
 }
 .img-text h2 {
   font-size: 30px;
