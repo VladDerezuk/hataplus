@@ -39,6 +39,9 @@ body {
 .line-text li:hover>a {
   color: #fd8300;
 }
+.svg-top ul{
+  column-gap: 30px;
+}
 .top-line {
   background-color: #1f1f56;
 }
@@ -83,9 +86,9 @@ body {
 .header-contacts{
   padding: 17px 0;
 }
-.skype,
-.email,
-.phone{
+.skype-top,
+.email-top,
+.phone-top{
   position: relative;
 }
 .tel-top a {
@@ -95,9 +98,9 @@ body {
   text-decoration: none;
   transition: all .5s;
 }
-.skype svg,
-.email svg,
-.phone svg{
+.skype-top svg,
+.email-top svg,
+.phone-top svg{
   fill: #fd8300;
   position: absolute;
   left: -20px;
@@ -105,9 +108,9 @@ body {
   transform: translateY(-50%);
   transition: all 1s ease;
 }
-.skype:hover svg,
-.email:hover svg,
-.phone:hover svg{
+.skype-top:hover svg,
+.email-top:hover svg,
+.phone-top:hover svg{
   fill: #1f1f56;
 }
 .tel-top p:hover > a{
@@ -166,7 +169,7 @@ body {
   color: #fff;
   font-family: "Roboto Slab";
   text-align: center;
-  padding: 5px;
+  margin-bottom: 12px;
 }
 .img-text p {
   list-style: none;
@@ -174,7 +177,7 @@ body {
   line-height: 24px;
   color: #fff;
   text-align: center;
-  padding: 5px;
+  margin-bottom: 12px;
 }
 p.cina {
   font-size: 40px;
@@ -204,7 +207,7 @@ h1 {
   transition: all 1s ease ;
   
 }
-.pro-nas p:hover a{
+.pro-nas a:hover{
   color: #1f1f56;
   transform: scale(1,1);
 }
@@ -320,6 +323,26 @@ nav{
   border-top: 1px solid #cdcddd;
   border-bottom: 1px solid #cdcddd;
 }
+.skype-under svg,
+.email-under svg,
+.phone-under svg{
+  fill: #fd8300;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-60%);
+  transition: all 1s ease;
+}
+.skype-under,
+.email-under,
+.phone-under{
+  position: relative;
+}
+.skype-under:hover svg,
+.email-under:hover svg,
+.phone-under:hover svg{
+  fill: #1f1f56;
+}
 .menu > li > a{
   position: relative;
 }
@@ -338,6 +361,10 @@ nav{
 .menu > li:hover > a::before {
   border-color: #fff;
   transform: translateY(-50%) rotate(225deg);
+}
+aside ul{
+  border-radius: 0 0 3px 3px;
+  overflow: hidden;
 }
 .submenu a{
   padding-left: 30px;
