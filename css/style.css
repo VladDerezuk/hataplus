@@ -64,6 +64,10 @@ thead{
 }
 th{
   padding: 7px;
+  border-top: 1px solid #274569;;
+}
+table{
+  margin-bottom: 27px;
 }
 table th{
   color: #fff;
@@ -85,6 +89,7 @@ tbody{
 }
 td{
   padding: 11px;
+  border-top: 1px solid #cdcddd;
 }
 .cina-table{
   text-align: right;
@@ -486,7 +491,7 @@ aside ul{
   font-size: 14px;
   line-height: 24px;
   color: #666666;
-  margin-bottom: 51px;
+  margin-bottom: 22px;
   font-family: "Arial";
 }
 .under-tables{
