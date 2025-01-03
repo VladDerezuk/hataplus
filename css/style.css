@@ -51,6 +51,48 @@ body {
   fill: #fff;
   transition: all 1s ease;
 }
+thead{
+  padding: 20px;
+  border-radius: 3px;
+  background-color: #1f1f56;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Roboto Slab";
+  border-radius: 3px 3px 3px 3px;
+}
+th{
+  padding: 7px;
+}
+table th{
+  color: #fff;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  overflow: hidden;
+}
+.text{
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  font-family: "Arial";
+}
+tbody{
+  padding: 10px;
+  background-color: #e4e4ec;
+}
+td{
+  padding: 11px;
+}
+.cina-table{
+  text-align: right;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  font-family: "Arial";
+}
 .insta:hover > svg,
 .twiter:hover > svg,
 .faceb:hover > svg{
