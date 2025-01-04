@@ -65,6 +65,7 @@ thead{
 th{
   padding: 7px;
   border-top: 1px solid #274569;;
+  border-right: 1px solid #274569;
 }
 table{
   margin-bottom: 27px;
@@ -90,6 +91,8 @@ tbody{
 td{
   padding: 11px;
   border-top: 1px solid #cdcddd;
+  border-right: 1px solid #cdcddd;
+  text-align: center;
 }
 .cina-table{
   text-align: right;
@@ -132,9 +135,7 @@ td{
 }
 .header-contacts{
   padding: 17px 0;
-  width: 1200px;
-  height: 115px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 0 rgba(0,0,0,0.1);
 }
 .skype-top,
 .email-top,
