@@ -39,6 +39,21 @@ body {
 .line-text li:hover>a {
   color: #fd8300;
 }
+.our li{
+  position: relative;
+  top: 100%;
+  left: 0;
+}
+.second-sub{
+  content: "";
+  position: absolute;
+  min-width: 120px;
+  background-color: #e4e4ec;
+}
+.subsub{
+  top: 0;
+  left: 0;
+}
 .svg-top ul{
   column-gap: 30px;
 }
@@ -61,6 +76,13 @@ thead{
   font-weight: 700;
   font-family: "Roboto Slab";
   border-radius: 3px 3px 3px 3px;
+}
+tbody tr:hover td{
+  background-color: #fd8300;
+  color: #fff;
+}
+tbody tr > td{
+  transition: all 1s steps(50);
 }
 th{
   padding: 7px;
@@ -547,6 +569,50 @@ aside ul{
 }
 .second-sub li:hover > .subsub{
   display: block;
+}
+.contacts-middle{
+  font-size: 24px;
+  line-height: 24px;
+  color: #24242b;
+  font-weight: 700;
+  font-family: "Roboto Slab";
+  margin-bottom: 27px;
+}
+header{
+  margin-bottom: 4;
+}
+.div{
+  margin-bottom: 41px;
+}
+.numb h2{
+  font-size: 14px;
+  line-height: 24px;
+  color: #24242b;
+  font-weight: 700;
+  font-family: "Roboto Slab";
+  margin-bottom: 19px;
+}
+.numb span{
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+  font-family: "Arial";
+  margin-bottom: 14px;
+}
+.tel-middle a{
+  color: #25252c;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  transition: all .5s;
+  text-align: left;
+}
+.tel-middle p:hover > a{
+  color: #fd8300;
+}
+.tel-middle p{
+  margin-bottom: 10px;
+  text-align: left;
 }
 .flex-between {
   display: flex;
