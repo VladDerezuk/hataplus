@@ -592,7 +592,7 @@ header{
   font-family: "Roboto Slab";
   margin-bottom: 19px;
 }
-.numb span{
+.numb p{
   font-size: 14px;
   line-height: 21px;
   color: #666666;
@@ -600,12 +600,12 @@ header{
   margin-bottom: 14px;
 }
 .tel-middle a{
+  font-size: 18px;
+  line-height: 24px;
   color: #25252c;
   font-weight: bold;
-  padding: 10px;
   text-decoration: none;
   transition: all .5s;
-  text-align: left;
 }
 .tel-middle p:hover > a{
   color: #fd8300;
@@ -614,6 +614,75 @@ header{
   margin-bottom: 10px;
   text-align: left;
 }
+.gmail a{
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #25252c;
+  font-family: "Arial";
+  transition: all 1s ease;
+}
+.gmail a:hover{
+  color: #fd8300;
+}
+.konsul h2{
+  font-size: 14px;
+  line-height: 24px;
+  color: #24242b;
+  font-weight: 700;
+  font-family: "Roboto Slab";
+  margin-bottom: 19px;
+}
+.konsul p{
+  font-size: 14px;
+  line-height: 21px;
+  color: #666666;
+  font-family: "Arial";
+  margin-bottom: 4px;
+}
+.second-numb a{
+  font-size: 18px;
+  line-height: 24px;
+  color: #25252c;
+  font-weight: bold;
+  font-family: "Arial";
+  transition: all 1s ease;
+  text-decoration: none;
+  text-align: left;
+}
+.second-numb a:hover{
+  color: #fd8300;
+}
+.dir-numb a{
+  font-size: 18px;
+  line-height: 24px;
+  color: #25252c;
+  font-weight: bold;
+  font-family: "Arial";
+  transition: all 1s ease;
+  text-decoration: none;
+  text-align: left; 
+}
+.dir-numb a:hover{
+  color: #fd8300;
+}
+.rekvi h2{
+  font-size: 14px;
+  line-height: 24px;
+  color: #24242b;
+  font-weight: 700;
+  font-family: "Roboto Slab";
+  margin-bottom: 19px;  
+}
+.rekvi p{
+  font-size: 13px;
+  line-height: 21px;
+  color: #666666;
+  font-family: "Arial";
+ }
+ .sv{
+  margin-bottom: 20px;
+ }
 .flex-between {
   display: flex;
   justify-content: space-between;
