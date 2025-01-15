@@ -30,7 +30,7 @@ body {
   list-style: none;
   column-gap: 25px;
 }
-.line-text ul li:hover>a {
+.linea a:hover {
   color: #fd8300;
 }
 .top-line a {
@@ -38,30 +38,40 @@ body {
   text-decoration: none;
   transition: all .5s;
 }
-.line-text li{
+.linea {
   position: relative;
   padding:  15px 0;
 }
 .second-sub li{
   position: relative;
 }
-.subsub{
-  font-size: 12px;
-  letter-spacing: 2px;
-  line-height: 24px;
-  color: #25252c;
-  font-family: "Arial";
-  text-decoration: none;
+.second-sub{
+  position: relative;
+}
+.second-sub > li:hover > a:before{
+  border-color: #fff;
+  transform: translateY(-50%) rotate(225deg);
+}
+.second-sub > li > a:before{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 09px;
+  width: 7px;
+  height: 7px;
+  border-top: 2px solid #8e8e91;
+  border-left: 2px solid #8e8e91;
+  transform: translateY(-50%) rotate(135deg);
+  transition: all 1s ease;
 }
 .subsub,
 .second-sub{
   position: absolute;
   top: 100%;
   left: 0;
-  min-width: 100px;
+  min-width: 125px;
   background-color: #e4e4ec;
 }
-
 .subsub,
 .second-sub{
   border-radius: 3px;
@@ -110,6 +120,9 @@ tbody tr:hover td{
 tbody tr > td{
   transition: all 1s steps(50);
 }
+tr+tr{
+  border-top: 1px solid #cdcddd;
+}
 th{
   padding: 9px;
   border-top: 1px solid #274569;
@@ -117,9 +130,6 @@ th{
 }
 table{
   margin-bottom: 27px;
-}
-table th{
-  color: #fff;
 }
 table{
   border-collapse: collapse;
@@ -150,7 +160,6 @@ td{
 }
 td+td{
   border-left: 1px solid #cdcddd;
-  border-bottom: 1px solid #cdcddd;
 }
 .nazva{
   text-align: left;
@@ -606,13 +615,12 @@ aside ul{
   list-style: none;
 }
 ul.second-sub li a,
-ul .subsub li a{
+ul.subsub li a{
   font-size: 12px;
   letter-spacing: 2px;
   line-height: 24px;
-  color: #25252c;
   font-family: "Arial";
-  min-width: 100px;
+  color: #25252c;
 }
 .second-sub {
   display: none;
@@ -631,26 +639,27 @@ ul .subsub li a{
   width: 100%;
   height: 5px;
 }
-a.second-sub{
-  font-size: 12px;
-  letter-spacing: 2px;
-  line-height: 24px;
-  color: #25252c;
-  font-family: "Arial";
-  min-width: 100px;
-}
-ul.subsub li:hover a,
-ul.second-sub li:hover a{
+ul.subsub li:hover > a,
+ul.second-sub li:hover > a{
   color: #fff;
 }
-.subsub li:hover,
-.second-sub li:hover{
+.subsub > li:hover,
+.second-sub > li:hover{
   background-color: #fd8300;
+  border-radius: 3px 3px 0 0;
+}
+.subsub ul > li:hover,
+.second-sub ul > li:hover{
+  background-color: #fd8300;
+  border-radius: 0 0 3px 3px;
+}
+.subsub ul > li:first-child,
+.second-sub ul > li:first-child{
+  transition: all 1s ease;
 }
 .subsub li,
 .second-sub li{
   transition: all 1s ease;
-  border-radius: 3px;
 }
 .line-text li:hover > .second-sub,
 .second-sub li:hover > .subsub{
