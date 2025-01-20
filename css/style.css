@@ -799,6 +799,7 @@ header{
   border-radius: 3px;
   background-color: #ffffff;
   border: 1px solid #c5c5d4;
+  margin-bottom: 9px;
 }
 .thirty-contact{
   margin-bottom: 74px;
@@ -812,6 +813,7 @@ header{
   border-radius: 3px;
   background-color: #ffffff;
   border: 1px solid #c5c5d4;
+  margin-bottom: 9px;
 }
 .texte{
   width: 466px;
@@ -819,24 +821,13 @@ header{
     border-radius: 3px;
     background-color: #ffffff;
     border: 1px solid #c5c5d4;
+    margin-bottom: 3px;
 }
-.button-center a{
-  font-size: 16px;
-  line-height: 24px;
-  color: #25252c;
-  font-weight: bold;
-  text-decoration: none;
-  transition: all .5s;
-  display: block;
-  border-radius: 25px;
-  color: #fff;
+button{
+  width: 140px;
+  height: 41px;
+  border-radius: 21px;
   background-color: #fd8300;
-  padding: 11px;
-  transition: all 1s;
-}
-.button-center a:hover{
-  color: #fd8300;
-  background-color: #1f1f56;
 }
 .check{
   font-size: 13px;
