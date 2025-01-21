@@ -783,7 +783,7 @@ header{
   position: relative;
   overflow: hidden;
   width: 30vw;
-  height: 35vh;
+  min-height: 350px;
  }
  iframe{
   position: absolute;
@@ -794,12 +794,14 @@ header{
   height: 100%;
 }
 .value{
-  width: 228px;
-  height: 40px;
+  padding: 10px 25px;
   border-radius: 3px;
   background-color: #ffffff;
   border: 1px solid #c5c5d4;
   margin-bottom: 9px;
+}
+.inputs p{
+  min-width: 230px;
 }
 .thirty-contact{
   margin-bottom: 74px;
@@ -808,8 +810,8 @@ header{
   column-gap: 10px;
 }
 .texts{
-  width: 466px;
-  height: 40px;
+  min-width: 466px;
+  padding: 10px;
   border-radius: 3px;
   background-color: #ffffff;
   border: 1px solid #c5c5d4;
@@ -817,17 +819,39 @@ header{
 }
 .texte{
   width: 466px;
-    height: 105px;
-    border-radius: 3px;
-    background-color: #ffffff;
-    border: 1px solid #c5c5d4;
-    margin-bottom: 3px;
+  height: 105px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid #c5c5d4;
+  margin-bottom: 3px;
 }
 button{
   width: 140px;
   height: 41px;
   border-radius: 21px;
   background-color: #fd8300;
+  border: none;
+  transition: all 1s;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #1f1f56;
+}
+.button-text{
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Arial";
+  text-align: center;
+}
+.form{
+  font-size: 14px;
+  line-height: 24px;
+  color: #24242b;
+  font-weight: 700;
+  font-family: "Roboto Slab";
+  margin-bottom: 21px;
 }
 .check{
   font-size: 13px;
