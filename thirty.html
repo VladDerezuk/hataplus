@@ -147,16 +147,25 @@
           <form>
             <h2 class="form">Форма зворотнього зв’язку</h2>
             <div class="inputs flex-between">
-              <p><input class="value" type="text" value="Ваше ім’я"></p>
-              <p><input class="value" type="number" value="Телефон"></p>
+              <label for="name">
+                <p><input class="value" name="name" type="text"  value="Ваше ім’я"></p>
+              </label>
+              <label for="tel">
+                <p><input class="value" name="tel" type="tel" value="Телефон"></p>
+              </label>
             </div>
             <div class="text wrapper">
-              <p><input class="texts" value="Тема повідомлення" type="text"></p>
-              <p><textarea class="texte" name="" id=""></textarea></p>
+              <label for="">
+                <p><input class="texts" name="message" value="Тема повідомлення" type="text"></p>
+              </label>
+              <label for="textarea">
+                <p><textarea class="texte" name="textarea" value="" id=""></textarea></p>
+              </label>
             </div>
             <div class="accept wrapper flex-between items-center">
               <p><button type="submit"><span class="button-text">Відправити</span></button></p>
-              <p class="check"><input type="checkbox"> Я бажаю отримувати останні новини</p>
+              <p class="check"> <span class="parent"><input type="checkbox"> Я бажаю отримувати останні новини
+              <span></span></span></p>
             </div>
           </form>
         </div>

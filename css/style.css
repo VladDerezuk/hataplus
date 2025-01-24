@@ -794,11 +794,16 @@ header{
   height: 100%;
 }
 .value{
-  padding: 10px 25px;
+  padding: 12px 25px;
   border-radius: 3px;
   background-color: #ffffff;
   border: 1px solid #c5c5d4;
   margin-bottom: 9px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #9999a6;
+  font-style: italic;
+  font-family: "Arial";
 }
 .inputs p{
   min-width: 230px;
@@ -807,7 +812,7 @@ header{
   margin-bottom: 74px;
 } 
 .inputs{
-  column-gap: 10px;
+  column-gap: 28px;
 }
 .texts{
   min-width: 466px;
@@ -816,6 +821,11 @@ header{
   background-color: #ffffff;
   border: 1px solid #c5c5d4;
   margin-bottom: 9px;
+  font-size: 13px;
+  line-height: 21px;
+  color: #9999a6;
+  font-style: italic;
+  font-family: "Arial";
 }
 .texte{
   width: 466px;
@@ -858,6 +868,21 @@ button:hover{
   line-height: 21px;
   color: #666666;
   font-family: "Arial";
+}
+input[type=checkbox]:checked + span {
+  top: 5px;
+  left: 2%;
+  width: 8px;
+  height: 5px;
+  border-top: 2px solid #1f1f56;
+  border-right: 2px solid #1f1f56;
+  transform: translate(-47%, -50%) rotate(135deg);
+}
+.parent {
+  position: relative;
+}
+.parent span {
+  position: absolute;
 }
   .flex-between {
   display: flex;
