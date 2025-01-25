@@ -729,6 +729,9 @@ header{
   font-family: "Roboto Slab";
   margin-bottom: 19px;
 }
+.thirty-contact{
+  column-gap: 140px;
+}
 .konsul p{
   font-size: 14px;
   line-height: 21px;
@@ -794,6 +797,7 @@ header{
   height: 100%;
 }
 .value{
+  width: 100%;
   padding: 12px 25px;
   border-radius: 3px;
   background-color: #ffffff;
@@ -801,7 +805,6 @@ header{
   margin-bottom: 9px;
   font-size: 13px;
   line-height: 21px;
-  color: #9999a6;
   font-style: italic;
   font-family: "Arial";
 }
@@ -815,25 +818,28 @@ header{
   column-gap: 28px;
 }
 .texts{
-  min-width: 466px;
+  width: 100%;
   padding: 10px;
   border-radius: 3px;
   background-color: #ffffff;
   border: 1px solid #c5c5d4;
   margin-bottom: 9px;
   font-size: 13px;
-  line-height: 21px;
-  color: #9999a6;
   font-style: italic;
   font-family: "Arial";
 }
 .texte{
-  width: 466px;
-  height: 105px;
+  padding: 10px;
+  width: 100%;
+  min-height: 100px;
   border-radius: 3px;
   background-color: #ffffff;
   border: 1px solid #c5c5d4;
   margin-bottom: 3px;
+  font-size: 13px;
+  line-height: 21px;
+  font-style: italic;
+  font-family: "Arial";
 }
 button{
   width: 140px;
@@ -870,13 +876,29 @@ button:hover{
   font-family: "Arial";
 }
 input[type=checkbox]:checked + span {
-  top: 5px;
-  left: 2%;
+  top: 3px;
+  left: 3%;
   width: 8px;
   height: 5px;
   border-top: 2px solid #1f1f56;
   border-right: 2px solid #1f1f56;
   transform: translate(-47%, -50%) rotate(135deg);
+}
+textarea ::placeholder{
+  content: "";
+  font-size: 13px;
+  line-height: 21px;
+  color: #9999a6;
+  font-style: italic;
+  font-family: "Arial";
+}
+input[type=checkbox]{
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid #c5c5d4;
 }
 .parent {
   position: relative;
@@ -884,7 +906,11 @@ input[type=checkbox]:checked + span {
 .parent span {
   position: absolute;
 }
-  .flex-between {
+.flex-start{
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-between {
   display: flex;
   justify-content: space-between;
 }
