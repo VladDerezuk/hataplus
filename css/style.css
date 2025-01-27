@@ -984,7 +984,7 @@ iframe {
 .texte {
   padding: 10px;
   width: 100%;
-  min-height: 100px;
+  max-height: 130px;
   border-radius: 3px;
   background-color: #ffffff;
   border: 1px solid #c5c5d4;
@@ -993,6 +993,7 @@ iframe {
   line-height: 21px;
   font-style: italic;
   font-family: "Arial";
+  resize: vertical;
 }
 
 button {
