@@ -1070,12 +1070,13 @@ input[type=checkbox] {
 .parent span {
   position: absolute;
 }
-
+.vid{
+  column-gap: 17px;
+}
 .flex-start {
   display: flex;
   justify-content: flex-start;
 }
-
 .flex-between {
   display: flex;
   justify-content: space-between;
