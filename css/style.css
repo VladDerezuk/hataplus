@@ -17,6 +17,9 @@
   font-style: normal;
   font-display: swap;
 }
+html{
+  font-size: 0.8px;
+}
 
 * {
   box-sizing: border-box;
@@ -31,7 +34,7 @@ body {
 
 .top-line ul {
   list-style: none;
-  column-gap: 25px;
+  column-gap: 25rem;
 }
 
 .linea a:hover {
@@ -39,6 +42,7 @@ body {
 }
 
 .top-line a {
+  font-size: 15rem;
   color: #b1b1d2;
   text-decoration: none;
   transition: all .5s;
@@ -46,7 +50,7 @@ body {
 
 .linea {
   position: relative;
-  padding: 15px 0;
+  padding: 15rem 0;
 }
 
 .second-sub li {
@@ -66,11 +70,11 @@ body {
   content: "";
   position: absolute;
   top: 50%;
-  right: 09px;
-  width: 7px;
-  height: 7px;
-  border-top: 2px solid #8e8e91;
-  border-left: 2px solid #8e8e91;
+  right: 09rem;
+  width: 7rem;
+  height: 7rem;
+  border-top: 2rem solid #8e8e91;
+  border-left: 2rem solid #8e8e91;
   transform: translateY(-50%) rotate(135deg);
   transition: all 1s ease;
 }
@@ -80,36 +84,36 @@ body {
   position: absolute;
   top: 100%;
   left: 0;
-  min-width: 125px;
+  min-width: 125rem;
   background-color: #e4e4ec;
 }
 
 .subsub,
 .second-sub {
-  border-radius: 3px;
+  border-radius: 3rem;
 }
 
 .subsub li+li,
 .second-sub li+li {
-  border-top: 1px solid #8e8e91;
+  border-top: 1rem solid #8e8e91;
 }
 
 .subsub {
   top: 0;
-  left: calc(100% + 4px);
+  left: calc(100% + 4rem);
 }
 
 .subsub::before {
   content: "";
   position: absolute;
   top: 0;
-  left: -4px;
-  border-left: 4px solid transparent;
+  left: -4rem;
+  border-left: 4rem solid transparent;
   height: 100%;
 }
 
 .svg-top ul {
-  column-gap: 30px;
+  column-gap: 30rem;
 }
 
 .top-line {
@@ -124,10 +128,10 @@ body {
 }
 
 thead {
-  border-radius: 3px;
+  border-radius: 3rem;
   background-color: #1f1f56;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #ffffff;
   font-weight: 700;
   font-family: "Roboto Slab";
@@ -143,67 +147,69 @@ tbody tr>td {
 }
 
 tr+tr {
-  border-top: 1px solid #cdcddd;
+  border-top: 1rem solid #cdcddd;
 }
 
 th {
-  padding: 9px;
-  border-top: 1px solid #274569;
-  border-right: 1px solid #274569;
+  padding: 9rem;
+  border-top: 1rem solid #274569;
+  border-right: 1rem solid #274569;
 }
 
 table {
-  margin-bottom: 27px;
+  margin-bottom: 27rem;
 }
 
 table {
   border-collapse: collapse;
   width: 100%;
   overflow: hidden;
-  border-radius: 3px;
+  border-radius: 3rem;
 }
 
 .text {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #666666;
   font-family: "Arial";
 }
 
 .name {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #666666;
   font-family: "Arial";
   text-align: left;
 }
 
 tbody {
-  padding: 10px;
+  padding: 10rem;
   background-color: #e4e4ec;
 }
 
 td {
-  padding: 11px;
+  padding: 11rem;
   text-align: center;
 }
 
 td+td {
-  border-left: 1px solid #cdcddd;
+  border-left: 1rem solid #cdcddd;
 }
 
 .nazva {
   text-align: left;
+  padding: 20rem;
 }
 
 .cina-two {
-  text-align: right
+  text-align: right;
+  padding: 20rem;
 }
 
 .cina-table {
   text-align: right;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #666666;
   font-family: "Arial";
 }
@@ -216,7 +222,7 @@ td+td {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 960rem;
 }
 
 .top-line {
@@ -228,12 +234,12 @@ td+td {
 }
 
 .header {
-  padding-top: 60px;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.1);
+  padding-top: 60rem;
+  box-shadow: 0 0 2rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 .vidstup {
-  margin-bottom: 20px;
+  margin-bottom: 20rem;
 }
 
 .email-top::before {
@@ -242,17 +248,17 @@ td+td {
 
 .email-top::before {
   content: "";
-  width: 1px;
-  height: 51px;
+  width: 1rem;
+  height: 51rem;
   background-color: #e4e4ec;
   position: absolute;
   top: 50%;
-  left: -45px;
+  left: -45rem;
   transform: translateY(-20%);
 }
 
 .header-contacts {
-  padding: 17px 0;
+  padding: 17rem 0;
 }
 
 .skype-top,
@@ -262,9 +268,10 @@ td+td {
 }
 
 .tel-top a {
+  font-size: 15rem;
   color: #25252c;
   font-weight: bold;
-  padding: 10px;
+  padding: 10rem;
   text-decoration: none;
   transition: all .5s;
 }
@@ -274,7 +281,7 @@ td+td {
 .phone-top svg {
   fill: #fd8300;
   position: absolute;
-  left: -20px;
+  left: -20rem;
   top: 50%;
   transform: translateY(-50%);
   transition: all 1s ease;
@@ -291,26 +298,27 @@ td+td {
 }
 
 .tel-top p {
-  margin-bottom: 10px;
+  margin-bottom: 10rem;
 }
 
 .main {
-  column-gap: 28px;
+  column-gap: 28rem;
 }
 
 .main-block {
-  padding: 37px 0 47px;
+  padding: 37rem 0 47rem;
 }
 
 .contacts-top a {
+  font-size: 15rem;
   color: #25252c;
-  padding: 10px;
+  padding: 10rem;
   text-decoration: none;
   transition: all .5s;
 }
 
 .contacts-top p {
-  margin-bottom: 10px;
+  margin-bottom: 10rem;
 }
 
 .contacts-top a:hover {
@@ -318,21 +326,21 @@ td+td {
 }
 
 .button-top {
-  padding: 14px;
+  padding: 14rem;
 }
 
 .button-top a {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 16rem;
+  line-height: 24rem;
   color: #25252c;
   font-weight: bold;
   text-decoration: none;
   transition: all .5s;
   display: block;
-  border-radius: 25px;
+  border-radius: 25rem;
   background-color: #ffffff;
-  border: 2px solid #fd8300;
-  padding: 11px;
+  border: 2rem solid #fd8300;
+  padding: 11rem;
 }
 
 .button-top p:hover>a {
@@ -341,52 +349,53 @@ td+td {
 }
 
 .background-img {
+  width: 100%;
   background: url(../img/Bgc.png) no-repeat center/cover;
-  padding: 50px;
+  padding: 50rem;
 }
 
 .img-text h2 {
-  font-size: 30px;
-  letter-spacing: 2px;
-  line-height: 24px;
+  font-size: 30rem;
+  letter-spacing: 2rem;
+  line-height: 24rem;
   text-transform: uppercase;
   color: #fff;
   font-family: "Roboto Slab";
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 12rem;
 }
 
 .img-text p {
   list-style: none;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #fff;
   text-align: center;
-  margin-bottom: 12px;
+  margin-bottom: 12rem;
 }
 
 p.cina {
-  font-size: 40px;
-  line-height: 24px;
+  font-size: 40rem;
+  line-height: 24rem;
   color: #fd8300;
   font-weight: bold;
-  padding: 5px;
+  padding: 5rem;
 }
 
 h1 {
-  font-size: 30px;
-  line-height: 24px;
+  font-size: 30rem;
+  line-height: 24rem;
   color: #24242b;
   font-family: "Roboto Slab";
   text-align: left;
-  margin-bottom: 20px
+  margin-bottom: 20rem
 }
 
 .pro-hataplus p {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #666;
-  margin-bottom: 10px;
+  margin-bottom: 10rem;
 }
 
 .pro-nas a {
@@ -404,36 +413,36 @@ h1 {
 
 hr {
   width: 100%;
-  margin: 30px 0;
+  margin: 30rem 0;
   border: none;
-  border-top: 1px solid #e4e4ec;
+  border-top: 1rem solid #e4e4ec;
 }
 
 .cina span {
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 24rem;
+  line-height: 24rem;
   color: #fd8300;
   font-weight: bold;
 }
 
 p.proektu {
-  font-size: 24px;
+  font-size: 24rem;
   color: #24242b;
   font-weight: 700;
   font-family: "Roboto Slab";
-  margin-bottom: 20px
+  margin-bottom: 20rem
 }
 
 .dim1 a {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #1f1f56;
   font-weight: bold;
   text-decoration: none;
 }
 
 .dim1 p {
-  font-size: 13px;
+  font-size: 13rem;
   color: #9999a6;
   list-style: none;
 }
@@ -443,15 +452,15 @@ p.proektu {
 }
 
 .dim2 a {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #1f1f56;
   font-weight: bold;
   text-decoration: none;
 }
 
 .dim2 p {
-  font-size: 13px;
+  font-size: 13rem;
   color: #9999a6;
   list-style: none;
 }
@@ -461,15 +470,15 @@ p.proektu {
 }
 
 .dim3 a {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #1f1f56;
   font-weight: bold;
   text-decoration: none;
 }
 
 .dim3 p {
-  font-size: 13px;
+  font-size: 13rem;
   color: #9999a6;
   list-style: none;
 }
@@ -479,35 +488,35 @@ p.proektu {
 }
 
 aside {
-  min-width: 220px;
+  min-width: 220rem;
 }
 
 aside p {
-  padding: 10.5px 16px;
-  font-size: 16px;
-  line-height: 24px;
+  padding: 10.5rem 16rem;
+  font-size: 16rem;
+  line-height: 24rem;
   color: #fff;
   font-weight: 700;
   font-family: "Roboto Slab";
   background-color: #1f1f56;
-  border-radius: 3px 3px 0 0;
+  border-radius: 3rem 3rem 0 0;
 }
 
 .menu ul li {
-  border-radius: 30px;
+  border-radius: 30rem;
 }
 
 nav {
   position: sticky;
-  top: 60px;
+  top: 60rem;
 }
 
 .menu a {
-  padding: 10.5px 16px;
+  padding: 10.5rem 16rem;
   display: block;
   background-color: #e4e4ec;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #25252c;
   text-decoration: none;
   transition: all .5s;
@@ -532,8 +541,8 @@ nav {
 }
 
 .menu>li+li {
-  border-top: 1px solid #cdcddd;
-  border-bottom: 1px solid #cdcddd;
+  border-top: 1rem solid #cdcddd;
+  border-bottom: 1rem solid #cdcddd;
 }
 
 .skype-under svg,
@@ -541,7 +550,7 @@ nav {
 .phone-under svg {
   fill: #fd8300;
   position: absolute;
-  left: -30px;
+  left: -30rem;
   top: 50%;
   transform: translateY(-60%);
   transition: all 1s ease;
@@ -567,11 +576,11 @@ nav {
   content: "";
   position: absolute;
   top: 50%;
-  right: 09px;
-  width: 7px;
-  height: 7px;
-  border-top: 2px solid #8e8e91;
-  border-left: 2px solid #8e8e91;
+  right: 09rem;
+  width: 7rem;
+  height: 7rem;
+  border-top: 2rem solid #8e8e91;
+  border-left: 2rem solid #8e8e91;
   transform: translateY(-50%) rotate(135deg);
   transition: all 1s ease;
 }
@@ -582,12 +591,12 @@ nav {
 }
 
 aside ul {
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3rem 3rem;
   overflow: hidden;
 }
 
 .submenu a {
-  padding-left: 30px;
+  padding-left: 30rem;
   color: #666;
 }
 
@@ -598,12 +607,12 @@ aside ul {
 
 .underline {
   background-color: #ededf5;
-  padding: 20px;
+  padding: 20rem;
 }
 
 .underline-text a {
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 14rem;
+  line-height: 26rem;
   color: #666;
   text-decoration: none;
   transition: all .5s;
@@ -614,8 +623,8 @@ aside ul {
 }
 
 .phone-under a {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 18rem;
+  line-height: 24rem;
   color: #25252c;
   font-weight: bold;
   text-decoration: none;
@@ -627,15 +636,15 @@ aside ul {
 }
 
 .contacts-under a {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 16rem;
+  line-height: 24rem;
   color: #25252c;
   text-decoration: none;
   transition: all .5s;
 }
 
 .phone-under p {
-  margin-bottom: 10px;
+  margin-bottom: 10rem;
 }
 
 .contacts-under p:hover>a {
@@ -643,7 +652,7 @@ aside ul {
 }
 
 .contacts-under p {
-  margin-bottom: 10px;
+  margin-bottom: 10rem;
 }
 
 .underline-text li:hover>a {
@@ -652,51 +661,51 @@ aside ul {
 
 .footer {
   background-color: #dcdce6;
-  padding: 10px 0;
+  padding: 10rem 0;
 }
 
 .footer-text {
-  font-size: 13px;
-  line-height: 18px;
+  font-size: 13rem;
+  line-height: 18rem;
   color: #9999a6;
   font-family: "Arial";
   text-align: center;
 }
 
 .main-text h2 {
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 24rem;
+  line-height: 24rem;
   color: #24242b;
   font-weight: 700;
-  padding: 23px 0;
+  padding: 23rem 0;
   font-family: "Roboto Slab";
 }
 
 .main-text {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #666666;
-  margin-bottom: 22px;
+  margin-bottom: 22rem;
   font-family: "Arial";
 }
 
 .under-tables {
-  font-size: 13px;
-  line-height: 21px;
+  font-size: 13rem;
+  line-height: 21rem;
   color: #666666;
   font-family: "Arial";
-  margin-bottom: 23px;
+  margin-bottom: 23rem;
 }
 
 .cikavo a {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   text-decoration: underline;
   color: #fd8300;
   font-weight: bold;
   font-family: "Arial";
   transition: all 1s ease;
-  margin-bottom: 34px;
+  margin-bottom: 34rem;
 }
 
 .cikavo a:hover {
@@ -704,15 +713,15 @@ aside ul {
 }
 
 .dim4 a {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #1f1f56;
   font-weight: bold;
   text-decoration: none;
 }
 
 .dim4 {
-  font-size: 13px;
+  font-size: 13rem;
   color: #9999a6;
   list-style: none;
 }
@@ -722,7 +731,7 @@ aside ul {
 }
 
 .doma {
-  margin-bottom: 46px;
+  margin-bottom: 46rem;
 }
 
 .second-sub,
@@ -733,9 +742,9 @@ aside ul {
 
 ul.second-sub li a,
 ul.subsub li a {
-  font-size: 12px;
-  letter-spacing: 2px;
-  line-height: 24px;
+  font-size: 12rem;
+  letter-spacing: 2rem;
+  line-height: 24rem;
   font-family: "Arial";
   color: #25252c;
 }
@@ -744,19 +753,19 @@ ul.subsub li a {
   display: none;
   position: absolute;
   list-style: none;
-  border-radius: 3px;
-  top: calc(100% + 5px);
+  border-radius: 3rem;
+  top: calc(100% + 5rem);
   left: 0;
 }
 
 .second-sub:before {
   content: "";
   position: absolute;
-  border-top: 5px solid transparent;
-  top: -5px;
+  border-top: 5rem solid transparent;
+  top: -5rem;
   left: 0;
   width: 100%;
-  height: 5px;
+  height: 5rem;
 }
 
 ul.subsub li:hover>a,
@@ -767,13 +776,13 @@ ul.second-sub li:hover>a {
 .subsub>li:hover,
 .second-sub>li:hover {
   background-color: #fd8300;
-  border-radius: 3px 3px 0 0;
+  border-radius: 3rem 3rem 0 0;
 }
 
 .subsub ul>li:hover,
 .second-sub ul>li:hover {
   background-color: #fd8300;
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3rem 3rem;
 }
 
 .subsub ul>li:first-child,
@@ -784,7 +793,7 @@ ul.second-sub li:hover>a {
 .subsub li,
 .second-sub li {
   transition: all 1s ease;
-  padding: 3px;
+  padding: 3rem;
 }
 
 .line-text li:hover>.second-sub,
@@ -793,12 +802,12 @@ ul.second-sub li:hover>a {
 }
 
 .contacts-middle {
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 24rem;
+  line-height: 24rem;
   color: #24242b;
   font-weight: 700;
   font-family: "Roboto Slab";
-  margin-bottom: 27px;
+  margin-bottom: 27rem;
 }
 
 header {
@@ -806,29 +815,29 @@ header {
 }
 
 .div {
-  margin-bottom: 41px;
+  margin-bottom: 41rem;
 }
 
 .numb h2 {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #24242b;
   font-weight: 700;
   font-family: "Roboto Slab";
-  margin-bottom: 19px;
+  margin-bottom: 19rem;
 }
 
 .numb p {
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 14rem;
+  line-height: 21rem;
   color: #666666;
   font-family: "Arial";
-  margin-bottom: 14px;
+  margin-bottom: 14rem;
 }
 
 .tel-middle a {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 18rem;
+  line-height: 24rem;
   color: #25252c;
   font-weight: bold;
   text-decoration: none;
@@ -840,13 +849,13 @@ header {
 }
 
 .tel-middle p {
-  margin-bottom: 10px;
+  margin-bottom: 10rem;
   text-align: left;
 }
 
 .gmail a {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 16rem;
+  line-height: 24rem;
   text-decoration: underline;
   color: #25252c;
   font-family: "Arial";
@@ -858,29 +867,29 @@ header {
 }
 
 .konsul h2 {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #24242b;
   font-weight: 700;
   font-family: "Roboto Slab";
-  margin-bottom: 19px;
+  margin-bottom: 19rem;
 }
 
 .thirty-contact {
-  column-gap: 140px;
+  column-gap: 140rem;
 }
 
 .konsul p {
-  font-size: 14px;
-  line-height: 21px;
+  font-size: 14rem;
+  line-height: 21rem;
   color: #666666;
   font-family: "Arial";
-  margin-bottom: 4px;
+  margin-bottom: 4rem;
 }
 
 .second-numb a {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 18rem;
+  line-height: 24rem;
   color: #25252c;
   font-weight: bold;
   font-family: "Arial";
@@ -894,8 +903,8 @@ header {
 }
 
 .dir-numb a {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 18rem;
+  line-height: 24rem;
   color: #25252c;
   font-weight: bold;
   font-family: "Arial";
@@ -909,35 +918,35 @@ header {
 }
 
 .rekvi h2 {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #24242b;
   font-weight: 700;
   font-family: "Roboto Slab";
-  margin-bottom: 19px;
+  margin-bottom: 19rem;
 }
 
 .rekvi p {
-  font-size: 13px;
-  line-height: 21px;
+  font-size: 13rem;
+  line-height: 21rem;
   color: #666666;
   font-family: "Arial";
 }
 
 .sv {
-  margin-bottom: 20px;
+  margin-bottom: 20rem;
 }
 
 .map {
   position: relative;
   overflow: hidden;
   width: 50%;
-  min-height: 350px;
+  min-height: 350rem;
 }
 
 iframe {
   position: absolute;
-  top: -71px;
+  top: -71rem;
   left: 0;
   border: none;
   width: 100%;
@@ -946,60 +955,60 @@ iframe {
 
 .value {
   width: 100%;
-  padding: 10px 25px;
-  border-radius: 3px;
+  padding: 10rem 25rem;
+  border-radius: 3rem;
   background-color: #ffffff;
-  border: 1px solid #c5c5d4;
-  margin-bottom: 9px;
-  font-size: 13px;
-  line-height: 21px;
+  border: 1rem solid #c5c5d4;
+  margin-bottom: 9rem;
+  font-size: 13rem;
+  line-height: 21rem;
   font-style: italic;
   font-family: "Arial";
 }
 
 .inputs p {
-  min-width: 230px;
+  min-width: 230rem;
 }
 
 .thirty-contact {
-  margin-bottom: 74px;
+  margin-bottom: 74rem;
 }
 
 .inputs {
-  column-gap: 10px;
+  column-gap: 10rem;
 }
 
 .texts {
   width: 100%;
-  padding: 10px;
-  border-radius: 3px;
+  padding: 10rem;
+  border-radius: 3rem;
   background-color: #ffffff;
-  border: 1px solid #c5c5d4;
-  margin-bottom: 9px;
-  font-size: 13px;
+  border: 1rem solid #c5c5d4;
+  margin-bottom: 9rem;
+  font-size: 13rem;
   font-style: italic;
   font-family: "Arial";
 }
 
 .texte {
-  padding: 10px;
+  padding: 10rem;
   width: 100%;
-  max-height: 130px;
-  border-radius: 3px;
+  max-height: 130rem;
+  border-radius: 3rem;
   background-color: #ffffff;
-  border: 1px solid #c5c5d4;
-  margin-bottom: 3px;
-  font-size: 13px;
-  line-height: 21px;
+  border: 1rem solid #c5c5d4;
+  margin-bottom: 3rem;
+  font-size: 13rem;
+  line-height: 21rem;
   font-style: italic;
   font-family: "Arial";
   resize: vertical;
 }
 
 button {
-  width: 140px;
-  height: 41px;
-  border-radius: 21px;
+  width: 140rem;
+  height: 41rem;
+  border-radius: 21rem;
   background-color: #fd8300;
   border: none;
   transition: all 1s;
@@ -1011,8 +1020,8 @@ button:hover {
 }
 
 .button-text {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14rem;
+  line-height: 24rem;
   color: #ffffff;
   font-weight: bold;
   font-family: "Arial";
@@ -1020,36 +1029,36 @@ button:hover {
 }
 
 .form {
-  font-size: 14px;
+  font-size: 14rem;
   width: 50%;
-  line-height: 24px;
+  line-height: 24rem;
   color: #24242b;
   font-weight: 700;
   font-family: "Roboto Slab";
-  margin-bottom: 21px;
+  margin-bottom: 21rem;
 }
 
 .check {
-  font-size: 13px;
-  line-height: 21px;
+  font-size: 13rem;
+  line-height: 21rem;
   color: #666666;
   font-family: "Arial";
 }
 
 input[type=checkbox]:checked+span {
-  top: 3px;
+  top: 3rem;
   left: 3%;
-  width: 8px;
-  height: 5px;
-  border-top: 2px solid #1f1f56;
-  border-right: 2px solid #1f1f56;
+  width: 8rem;
+  height: 5rem;
+  border-top: 2rem solid #1f1f56;
+  border-right: 2rem solid #1f1f56;
   transform: translate(-47%, -50%) rotate(135deg);
 }
 
 textarea ::placeholder {
   content: "";
-  font-size: 13px;
-  line-height: 21px;
+  font-size: 13rem;
+  line-height: 21rem;
   color: #9999a6;
   font-style: italic;
   font-family: "Arial";
@@ -1057,11 +1066,11 @@ textarea ::placeholder {
 
 input[type=checkbox] {
   appearance: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 3px;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 3rem;
   background-color: #ffffff;
-  border: 1px solid #c5c5d4;
+  border: 1rem solid #c5c5d4;
 }
 
 .parent {
@@ -1072,7 +1081,7 @@ input[type=checkbox] {
   position: absolute;
 }
 .vid{
-  column-gap: 17px;
+  column-gap: 17rem;
 }
 .flex-start {
   display: flex;
@@ -1085,4 +1094,28 @@ input[type=checkbox] {
 
 .items-center {
   align-items: center;
+}
+@media screen and (min-width: 320px){
+  .header-contacts{
+    flex-wrap: wrap;
+  }
+  .main{
+    flex-wrap: wrap;
+  }
+  .doma{
+    flex-wrap: wrap;
+  }
+  .wrapper{
+    flex-wrap: wrap;
+  }
+}
+@media screen and(min-width: 1440px) {
+  .main{
+    
+  }
+}
+@media screen and (min-width: 1024px) {
+  html{
+    font-size: 1px;
+  }
 }
